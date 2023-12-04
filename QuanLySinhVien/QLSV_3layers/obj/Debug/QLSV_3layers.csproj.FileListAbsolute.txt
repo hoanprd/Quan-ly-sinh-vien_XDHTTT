@@ -1,0 +1,120 @@
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.exe.config
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.exe
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.pdb
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.Properties.Resources.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.GenerateResource.Cache
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.exe
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.pdb
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmMain.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSSV.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmSinhVien.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSGV.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmGV.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSMH_.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmMonHoc.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSDiemThi.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmWelcome.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDsLopHoc.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmLopHoc.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangnhap.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangkyMonhoc.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDsMHDaDky.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmKetQuaHocTap.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csprojResolveAssemblyReference.cache
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmQuanLyLop.resources
+D:\Tutorial\C#\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmChamDiem.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.exe.config
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.exe
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.pdb
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.AssemblyReference.cache
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmChamDiem.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangnhap.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangkyMonhoc.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSDiemThi.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSGV.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDsLopHoc.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSMH_.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDsMHDaDky.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSSV.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmGV.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmKetQuaHocTap.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmLopHoc.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmMain.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmMonHoc.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmQuanLyLop.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmSinhVien.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmWelcome.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.Properties.Resources.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.GenerateResource.cache
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.CoreCompileInputs.cache
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.exe
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.pdb
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\bin\Debug\BouncyCastle.Crypto.dll
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\bin\Debug\itextsharp.dll
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\bin\Debug\itextsharp.xml
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.FormReport.resources
+D:\tttn du phong\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.CopyComplete
+D:\QLSV\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.exe.config
+D:\QLSV\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.exe
+D:\QLSV\QLSV_3layers\QLSV_3layers\bin\Debug\QLSV_3layers.pdb
+D:\QLSV\QLSV_3layers\QLSV_3layers\bin\Debug\BouncyCastle.Crypto.dll
+D:\QLSV\QLSV_3layers\QLSV_3layers\bin\Debug\itextsharp.dll
+D:\QLSV\QLSV_3layers\QLSV_3layers\bin\Debug\itextsharp.xml
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.AssemblyReference.cache
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.FormReport.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmChamDiem.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangnhap.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangkyMonhoc.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSDiemThi.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSGV.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDsLopHoc.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSMH_.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDsMHDaDky.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSSV.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmGV.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmKetQuaHocTap.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmLopHoc.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmMain.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmMonHoc.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmQuanLyLop.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmSinhVien.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.frmWelcome.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.Properties.Resources.resources
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.GenerateResource.cache
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.CoreCompileInputs.cache
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.CopyComplete
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.exe
+D:\QLSV\QLSV_3layers\QLSV_3layers\obj\Debug\QLSV_3layers.pdb
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.AssemblyReference.cache
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.FormReport.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmChamDiem.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangnhap.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangkyMonhoc.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSDiemThi.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSGV.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDsLopHoc.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSMH_.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDsMHDaDky.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDSSV.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmGV.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmKetQuaHocTap.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmLopHoc.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmMain.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmMonHoc.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmQuanLyLop.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmSinhVien.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmWelcome.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.Properties.Resources.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.GenerateResource.cache
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.CoreCompileInputs.cache
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.exe
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.pdb
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\QLSV_3layers.exe.config
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\QLSV_3layers.exe
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\QLSV_3layers.pdb
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\BouncyCastle.Crypto.dll
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\itextsharp.dll
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\itextsharp.xml
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.CopyComplete
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDoiMatKhauSV.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangKy.resources
