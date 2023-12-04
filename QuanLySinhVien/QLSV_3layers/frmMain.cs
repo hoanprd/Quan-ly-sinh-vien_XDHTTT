@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -145,13 +146,23 @@ namespace QLSV_3layers
             {
                 frmDoiMatKhauSV f = new frmDoiMatKhauSV();
                 f.ShowDialog();
-                //AddForm(f);
             }
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void mànHìnhChínhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmWelcome f = new frmWelcome();
+            AddForm(f);
+        }
+
+        private void hỗTrợToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://www.facebook.com/CongtacsinhvienUT");
         }
     }
 }

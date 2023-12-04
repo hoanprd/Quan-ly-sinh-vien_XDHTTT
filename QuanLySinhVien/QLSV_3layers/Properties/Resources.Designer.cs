@@ -73,6 +73,16 @@ namespace QLSV_3layers.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1484589503_Bag1 {
+            get {
+                object obj = ResourceManager.GetObject("1484589503_Bag1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AddIco {
             get {
                 object obj = ResourceManager.GetObject("AddIco", resourceCulture);
@@ -83,9 +93,39 @@ namespace QLSV_3layers.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Aha_Soft_People_Engineer {
+            get {
+                object obj = ResourceManager.GetObject("Aha-Soft-People-Engineer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Aha_Soft_Security_Add_key {
+            get {
+                object obj = ResourceManager.GetObject("Aha-Soft-Security-Add-key", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Aha_Soft_Universal_Shop_Print {
             get {
                 object obj = ResourceManager.GetObject("Aha-Soft-Universal-Shop-Print", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Deleteico {
+            get {
+                object obj = ResourceManager.GetObject("Deleteico", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +146,26 @@ namespace QLSV_3layers.Properties {
         internal static System.Drawing.Bitmap grains_cup_coffee_background_83041_1920x1080 {
             get {
                 object obj = ResourceManager.GetObject("grains_cup_coffee_background_83041_1920x1080", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hopstarter_Soft_Scraps_Text_Edit {
+            get {
+                object obj = ResourceManager.GetObject("Hopstarter-Soft-Scraps-Text-Edit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SAVEADD {
+            get {
+                object obj = ResourceManager.GetObject("SAVEADD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +203,16 @@ namespace QLSV_3layers.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Visualpharm_Must_Have_Log_Out {
+            get {
+                object obj = ResourceManager.GetObject("Visualpharm-Must-Have-Log-Out", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap welcome {
             get {
                 object obj = ResourceManager.GetObject("welcome", resourceCulture);
@@ -156,6 +226,16 @@ namespace QLSV_3layers.Properties {
         internal static System.Drawing.Bitmap welcome1 {
             get {
                 object obj = ResourceManager.GetObject("welcome1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Zerode_Plump_Search {
+            get {
+                object obj = ResourceManager.GetObject("Zerode-Plump-Search", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

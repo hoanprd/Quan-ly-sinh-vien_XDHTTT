@@ -89,7 +89,7 @@ namespace QLSV_3layers
 
             //khai báo một danh sách tham sô = class CustomParameter 
             List<CustomParameter> lstPara = new List<CustomParameter>();
-           if(string.IsNullOrEmpty(msv))//nếu thêm mới sinh viên
+            if(string.IsNullOrEmpty(msv))//nếu thêm mới sinh viên
             {
                 sql = "ThemMoiSV";
                

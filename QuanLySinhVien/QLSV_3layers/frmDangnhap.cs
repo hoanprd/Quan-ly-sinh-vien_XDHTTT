@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -105,7 +106,14 @@ namespace QLSV_3layers
 
         private void frmDangnhap_Load(object sender, EventArgs e)
         {
+            string duongdan = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string checkDK = File.ReadAllText(duongdan + @"\QLSV\checkdk.txt");
 
+            if (checkDK != "dadangky")
+            {
+                frmDangKy f = new frmDangKy();
+                f.ShowDialog();
+            }
         }
     }
 }

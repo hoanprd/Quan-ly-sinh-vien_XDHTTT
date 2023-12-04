@@ -30,7 +30,7 @@ namespace QLSV_3layers
             if (txtMatKhauHienTai.Text != frmDangnhap.matKhauThayHienTai)
             {
                 MessageBox.Show("Mật khẩu hiện tại không đúng!", "Chú ý!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtMatKhauMoi.Select();
+                txtMatKhauHienTai.Select();
                 return;
             }
 
