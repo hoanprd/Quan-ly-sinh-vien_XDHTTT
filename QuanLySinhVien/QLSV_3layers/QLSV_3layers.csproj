@@ -189,6 +189,18 @@
     <Compile Include="frmWelcome.Designer.cs">
       <DependentUpon>frmWelcome.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmXemThongTinCaNhanGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemThongTinCaNhanGV.Designer.cs">
+      <DependentUpon>frmXemThongTinCaNhanGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXemThongTinCaNhanSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemThongTinCaNhanSV.Designer.cs">
+      <DependentUpon>frmXemThongTinCaNhanSV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lib\ReportExtensionMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -257,6 +269,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemThongTinCaNhanGV.resx">
+      <DependentUpon>frmXemThongTinCaNhanGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemThongTinCaNhanSV.resx">
+      <DependentUpon>frmXemThongTinCaNhanSV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

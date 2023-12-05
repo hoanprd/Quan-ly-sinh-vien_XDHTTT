@@ -40,20 +40,24 @@
             this.dgvDSLH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDSLH.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDSLH.Location = new System.Drawing.Point(0, 0);
+            this.dgvDSLH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvDSLH.MultiSelect = false;
             this.dgvDSLH.Name = "dgvDSLH";
             this.dgvDSLH.ReadOnly = true;
+            this.dgvDSLH.RowHeadersWidth = 51;
             this.dgvDSLH.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDSLH.Size = new System.Drawing.Size(755, 419);
+            this.dgvDSLH.Size = new System.Drawing.Size(1007, 516);
             this.dgvDSLH.TabIndex = 0;
             this.dgvDSLH.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSLH_CellDoubleClick);
             // 
             // frmDangkyMonhoc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(755, 419);
+            this.ClientSize = new System.Drawing.Size(1007, 516);
             this.Controls.Add(this.dgvDSLH);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmDangkyMonhoc";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

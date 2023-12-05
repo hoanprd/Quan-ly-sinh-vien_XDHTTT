@@ -34,6 +34,42 @@ namespace QLSV_3layers
             matKhauHienTai = fn.matkhau;
             loaitk = fn.loaitk;
 
+            string sql = null;
+            List<CustomParameter> lstPara = new List<CustomParameter>();
+
+            if (loaitk == "admin")
+            {
+                sql = "getTenTaiKhoanAdmin";
+                lstPara.Add(new CustomParameter()
+                {
+                    key = "mataikhoan",
+                    value = taikhoan
+                });
+            }
+            else if (loaitk == "gv")
+            {
+                sql = "getTenTaiKhoanGV";
+                lstPara.Add(new CustomParameter()
+                {
+                    key = "magiaovien",
+                    value = taikhoan
+                });
+            }
+            else if (loaitk == "sv")
+            {
+                sql = "getTenTaiKhoanSV";
+                lstPara.Add(new CustomParameter()
+                {
+                    key = "masinhvien",
+                    value = taikhoan
+                });
+            }
+
+            var rs = new Database().ExeCuteString(sql, lstPara);
+
+            string lbl = rs;
+            lblXinChao.Text = "Xin chào: " + lbl;
+
             try
             {
                 if (!thoatDangNhap)
@@ -45,6 +81,8 @@ namespace QLSV_3layers
                         //chỉ để lại menu quản lý
                         chamDiemToolStripMenuItem.Visible = false;
                         chucNangToolStripMenuItem.Visible = false;
+                        thongTinCaNhanGiaoVienToolStripMenuItem.Visible = false;
+                        thongTinCaNhanSinhVienToolStripMenuItem.Visible = false;
                     }
                     else
                     {
@@ -55,11 +93,13 @@ namespace QLSV_3layers
                             //ẩn menu đăng ký học -> cái này chỉ dành riêng cho sinh viên
                             chucNangToolStripMenuItem.Visible = false;
                             baoCaoToolStripMenuItem.Visible = false;
+                            thongTinCaNhanSinhVienToolStripMenuItem.Visible = false;
                         }
                         else//chỉ còn lại trường hợp là sinh viên
                         {
                             chamDiemToolStripMenuItem.Visible = false;//ẩn menu chấm điểm<-chức năng của gv
                             baoCaoToolStripMenuItem.Visible = false;
+                            thongTinCaNhanGiaoVienToolStripMenuItem.Visible = false;
                         }
                     }
 
@@ -165,6 +205,18 @@ namespace QLSV_3layers
         {
             frmBaoCaoDSGV f = new frmBaoCaoDSGV();
             f.ShowDialog();
+        }
+
+        private void thongTinCaNhanGiaoVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmXemThongTinCaNhanGV f = new frmXemThongTinCaNhanGV(taikhoan);
+            AddForm(f);
+        }
+
+        private void thongTinCaNhanSinhVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmXemThongTinCaNhanSV f = new frmXemThongTinCaNhanSV(taikhoan);
+            AddForm(f);
         }
     }
 }

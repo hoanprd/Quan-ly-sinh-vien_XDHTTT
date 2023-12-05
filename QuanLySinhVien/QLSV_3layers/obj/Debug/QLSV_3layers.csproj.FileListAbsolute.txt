@@ -121,3 +121,5 @@ E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLS
 E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\Aspose.Words.dll
 E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmBaoCaoDSSV.resources
 E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmBaoCaoDSGV.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmXemThongTinCaNhanSV.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmXemThongTinCaNhanGV.resources

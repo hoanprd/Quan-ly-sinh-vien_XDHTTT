@@ -66,14 +66,13 @@
             this.dienthoai,
             this.email,
             this.btnDelete});
-            this.dgvSinhVien.Location = new System.Drawing.Point(13, 146);
-            this.dgvSinhVien.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvSinhVien.Location = new System.Drawing.Point(10, 119);
             this.dgvSinhVien.MultiSelect = false;
             this.dgvSinhVien.Name = "dgvSinhVien";
             this.dgvSinhVien.ReadOnly = true;
             this.dgvSinhVien.RowHeadersWidth = 62;
             this.dgvSinhVien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSinhVien.Size = new System.Drawing.Size(1122, 398);
+            this.dgvSinhVien.Size = new System.Drawing.Size(842, 323);
             this.dgvSinhVien.TabIndex = 0;
             this.dgvSinhVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSinhVien_CellClick);
             this.dgvSinhVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSinhVien_CellContentClick);
@@ -158,20 +157,18 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(799, 38);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(590, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 20);
+            this.label1.Size = new System.Drawing.Size(60, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Từ khóa";
             // 
             // txtTukhoa
             // 
             this.txtTukhoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTukhoa.Location = new System.Drawing.Point(875, 38);
-            this.txtTukhoa.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTukhoa.Location = new System.Drawing.Point(656, 31);
             this.txtTukhoa.Name = "txtTukhoa";
-            this.txtTukhoa.Size = new System.Drawing.Size(260, 22);
+            this.txtTukhoa.Size = new System.Drawing.Size(196, 20);
             this.txtTukhoa.TabIndex = 2;
             // 
             // btnTimkiem
@@ -179,10 +176,9 @@
             this.btnTimkiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTimkiem.Image = global::QLSV_3layers.Properties.Resources.Zerode_Plump_Search;
             this.btnTimkiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimkiem.Location = new System.Drawing.Point(875, 78);
-            this.btnTimkiem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTimkiem.Location = new System.Drawing.Point(656, 63);
             this.btnTimkiem.Name = "btnTimkiem";
-            this.btnTimkiem.Size = new System.Drawing.Size(126, 60);
+            this.btnTimkiem.Size = new System.Drawing.Size(94, 49);
             this.btnTimkiem.TabIndex = 3;
             this.btnTimkiem.Text = "Tìm kiếm";
             this.btnTimkiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -194,10 +190,9 @@
             this.btnThemmoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnThemmoi.Image = global::QLSV_3layers.Properties.Resources.Aha_Soft_People_Engineer;
             this.btnThemmoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemmoi.Location = new System.Drawing.Point(1009, 78);
-            this.btnThemmoi.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThemmoi.Location = new System.Drawing.Point(757, 63);
             this.btnThemmoi.Name = "btnThemmoi";
-            this.btnThemmoi.Size = new System.Drawing.Size(126, 60);
+            this.btnThemmoi.Size = new System.Drawing.Size(94, 49);
             this.btnThemmoi.TabIndex = 4;
             this.btnThemmoi.Text = "Thêm mới";
             this.btnThemmoi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -209,19 +204,18 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(13, 9);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(10, 7);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(248, 32);
+            this.label3.Size = new System.Drawing.Size(199, 25);
             this.label3.TabIndex = 15;
             this.label3.Text = "Danh sách sinh viên";
             // 
             // frmDSSV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(1148, 556);
+            this.ClientSize = new System.Drawing.Size(861, 452);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnThemmoi);
             this.Controls.Add(this.btnTimkiem);
@@ -229,7 +223,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvSinhVien);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDSSV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Danh sách sinh viên";
