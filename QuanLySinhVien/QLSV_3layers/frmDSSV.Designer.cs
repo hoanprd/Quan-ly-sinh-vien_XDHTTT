@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDSSV));
             this.dgvSinhVien = new System.Windows.Forms.DataGridView();
             this.masinhvien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hoten = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -227,6 +228,7 @@
             this.Controls.Add(this.txtTukhoa);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvSinhVien);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDSSV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

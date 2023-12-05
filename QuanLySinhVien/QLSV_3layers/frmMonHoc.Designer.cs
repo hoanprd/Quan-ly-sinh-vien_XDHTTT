@@ -53,7 +53,7 @@
             // 
             this.txtTenMH.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTenMH.Location = new System.Drawing.Point(120, 27);
-            this.txtTenMH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenMH.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenMH.Name = "txtTenMH";
             this.txtTenMH.Size = new System.Drawing.Size(384, 22);
             this.txtTenMH.TabIndex = 1;
@@ -75,7 +75,7 @@
             // 
             this.txtSoTC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSoTC.Location = new System.Drawing.Point(578, 27);
-            this.txtSoTC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTC.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoTC.Name = "txtSoTC";
             this.txtSoTC.Size = new System.Drawing.Size(57, 22);
             this.txtSoTC.TabIndex = 1;
@@ -86,7 +86,7 @@
             this.btnLuu.Image = global::QLSV_3layers.Properties.Resources.SAVEADD;
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLuu.Location = new System.Drawing.Point(180, 57);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(126, 60);
             this.btnLuu.TabIndex = 2;
@@ -101,7 +101,7 @@
             this.btnHuy.Image = global::QLSV_3layers.Properties.Resources.Deleteico;
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHuy.Location = new System.Drawing.Point(378, 57);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(126, 60);
             this.btnHuy.TabIndex = 2;
@@ -122,7 +122,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtTenMH);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMonHoc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng ký môn học";

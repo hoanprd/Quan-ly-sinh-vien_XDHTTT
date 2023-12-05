@@ -35,6 +35,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnKetThuc = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
+            this.btnXuatBaoCao = new System.Windows.Forms.Button();
+            this.lblMH = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSSV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,12 +142,42 @@
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
+            // btnXuatBaoCao
+            // 
+            this.btnXuatBaoCao.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnXuatBaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXuatBaoCao.Image = global::QLSV_3layers.Properties.Resources.Aha_Soft_Universal_Shop_Print;
+            this.btnXuatBaoCao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXuatBaoCao.Location = new System.Drawing.Point(19, 442);
+            this.btnXuatBaoCao.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXuatBaoCao.Name = "btnXuatBaoCao";
+            this.btnXuatBaoCao.Size = new System.Drawing.Size(176, 60);
+            this.btnXuatBaoCao.TabIndex = 14;
+            this.btnXuatBaoCao.Text = "Xuất báo cáo";
+            this.btnXuatBaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXuatBaoCao.UseVisualStyleBackColor = true;
+            this.btnXuatBaoCao.Click += new System.EventHandler(this.btnXuatBaoCao_Click);
+            // 
+            // lblMH
+            // 
+            this.lblMH.AutoSize = true;
+            this.lblMH.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMH.ForeColor = System.Drawing.Color.White;
+            this.lblMH.Location = new System.Drawing.Point(13, 57);
+            this.lblMH.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMH.Name = "lblMH";
+            this.lblMH.Size = new System.Drawing.Size(199, 28);
+            this.lblMH.TabIndex = 15;
+            this.lblMH.Text = "Môn học - Mã MH";
+            // 
             // frmChamDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(945, 515);
+            this.Controls.Add(this.lblMH);
+            this.Controls.Add(this.btnXuatBaoCao);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnKetThuc);
             this.Controls.Add(this.btnLuu);
@@ -153,6 +185,7 @@
             this.Controls.Add(this.btnTraCuu);
             this.Controls.Add(this.txtTuKhoa);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmChamDiem";
             this.ShowInTaskbar = false;
@@ -174,5 +207,7 @@
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnKetThuc;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnXuatBaoCao;
+        private System.Windows.Forms.Label lblMH;
     }
 }

@@ -149,5 +149,10 @@ namespace QLSV_3layers
                 MessageBox.Show("Thực thi truy vấn thất bại");
             }
         }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

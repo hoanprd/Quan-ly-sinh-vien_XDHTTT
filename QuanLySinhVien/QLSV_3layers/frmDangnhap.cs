@@ -17,9 +17,11 @@ namespace QLSV_3layers
         {
             InitializeComponent();
         }
-        public static string maSVIndex, matKhauThayHienTai, loaiTK;
+
         public string tendangnhap = "";
+        public string matkhau = "";
         public string loaitk;
+
         private void btnThoat_Click(object sender, EventArgs e)   //cho phép người dùng thoát khỏi ứng dụng bằng cách gọi Application.Exit().
         {
             frmMain.thoatDangNhap = true;
@@ -32,25 +34,26 @@ namespace QLSV_3layers
             //kiểm tra ràng buộc
             if (cbbLoaiTaiKhoan.SelectedIndex < 0)
             {
-                MessageBox.Show("Vui lòng chọn loại tài khoản");
+                MessageBox.Show("Vui lòng chọn loại tài khoản", "Chú ý!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if(string.IsNullOrEmpty(txtTendangnhap.Text))
             {
-                MessageBox.Show("Vui lòng nhập tài khoản","Tài khoản không được để trống");
+                MessageBox.Show("Vui lòng nhập tên tài khoản", "Chú ý!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtTendangnhap.Select();
                 return;
             }
 
             if(string.IsNullOrEmpty(txtMatkhau.Text))
             {
-                MessageBox.Show("Vui lòng nhập mật khẩu","Mật khẩu không thể để trống");
+                MessageBox.Show("Vui lòng nhập mật khẩu", "Chú ý!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             #endregion
 
 
             tendangnhap = txtTendangnhap.Text;
+            matkhau = txtMatkhau.Text;
             loaitk = "";
 
             #region swtk
@@ -92,9 +95,6 @@ namespace QLSV_3layers
             if (rs.Rows.Count>0)
             {
                 MessageBox.Show("Đăng nhập thành công");
-                maSVIndex = txtTendangnhap.Text;
-                matKhauThayHienTai = txtMatkhau.Text;
-                loaiTK = loaitk;
                 this.Hide();
             }
             else

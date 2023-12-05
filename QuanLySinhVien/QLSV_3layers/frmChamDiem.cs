@@ -7,19 +7,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Aspose.Words;
+using ThuVienWinform.Report.AsposeWordExtension;
+using Aspose.Words.Tables;
 
 namespace QLSV_3layers
 {
     public partial class frmChamDiem : Form
     {
-        public frmChamDiem(string malophoc, string magv)// danh sách tham số truyền vào form
+        DataGridViewRow r;
+
+        private int row = 0;
+        private string dir, fileName;
+
+        public frmChamDiem(string malophoc, string magv, string maMonHoc, string tenMonHoc)// danh sách tham số truyền vào form
         {
             this.malophoc = malophoc;// lưu malophoc được truyền qua
             this.magv = magv;
+            this.maMonHoc = maMonHoc;
+            this.tenMonHoc = tenMonHoc;
             InitializeComponent();
         }
+
         private string malophoc;// khai báo biến để lưu malophoc được truyền vào
         private string magv;
+        private string maMonHoc;
+        private string tenMonHoc;
+
         private void LoadDSSV()
         {
             List<CustomParameter> lstPara = new List<CustomParameter>();
@@ -39,6 +53,11 @@ namespace QLSV_3layers
 
         private void frmChamDiem_Load(object sender, EventArgs e)
         {
+            lblMH.Text = "Môn học: " + tenMonHoc + " - Mã môn học: " + maMonHoc;
+            fileName = tenMonHoc + "_" + maMonHoc;
+
+            dir = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
             //cho gọi hàm load dssv ngay khi form đc load
             LoadDSSV();
            
@@ -53,6 +72,8 @@ namespace QLSV_3layers
             {
                 dgvDSSV.Columns[i].ReadOnly = true;
             }
+
+            row = dgvDSSV.Rows.Count;
         }
 
         private void btnTraCuu_Click(object sender, EventArgs e)
@@ -168,6 +189,53 @@ namespace QLSV_3layers
         private void txtTuKhoa_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnXuatBaoCao_Click(object sender, EventArgs e)
+        {
+            var homNay = DateTime.Now;
+
+            Document baoCao = new Document("Mau_Bao_Cao_LopHoc.doc");
+
+            baoCao.MailMerge.Execute(new[] { "Ngay_Thang_Nam_BC" }, new[] { homNay.ToString() });
+            baoCao.MailMerge.Execute(new[] { "Ten_Lop_Hoc" }, new[] { lblMH.Text });
+
+            Table bangThongTin = baoCao.GetChild(NodeType.Table, 1, true) as Table;
+            int hangHienTai = 1;
+            bangThongTin.InsertRows(hangHienTai, hangHienTai, row);
+            for (int i = 1; i <= row; i++)
+            {
+                r = dgvDSSV.Rows[hangHienTai - 1];
+
+                bangThongTin.PutValue(hangHienTai, 0, r.Cells["masinhvien"].Value.ToString());
+                bangThongTin.PutValue(hangHienTai, 1, r.Cells["hoten"].Value.ToString());
+                bangThongTin.PutValue(hangHienTai, 2, r.Cells["lanhoc"].Value.ToString());
+                bangThongTin.PutValue(hangHienTai, 3, r.Cells["diemthilan1"].Value.ToString());
+                bangThongTin.PutValue(hangHienTai, 4, r.Cells["diemthilan2"].Value.ToString());
+                hangHienTai++;
+            }
+
+            try
+            {
+                baoCao.Save("BaoCaoLopHoc_" + fileName + ".docx");
+                string temp = Application.StartupPath.ToString() + "/BaoCaoLopHoc_" + fileName + ".docx";
+                string sourceFilePath = temp;
+                string outputFilePath = dir + "/BaoCaoLopHoc_" + fileName + ".pdf";
+
+                ConvertToPdf(sourceFilePath, outputFilePath);
+                System.Diagnostics.Process.Start(outputFilePath);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void ConvertToPdf(string sourceFilePath, string outputFilePath)
+        {
+            Document doc = new Document(sourceFilePath);
+
+            doc.Save(outputFilePath, SaveFormat.Pdf);
         }
     }
 }

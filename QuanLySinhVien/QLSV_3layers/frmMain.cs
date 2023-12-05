@@ -21,6 +21,7 @@ namespace QLSV_3layers
         }
 
         private string taikhoan;
+        private string matKhauHienTai;
         private string loaitk;
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -28,9 +29,11 @@ namespace QLSV_3layers
             var fn = new frmDangnhap();
             fn.ShowDialog();//load form đăng nhập khi formmain đc gọi
 
-            //sau khi form đăng nhập đc tắt, lấy tài khoản đã đăng nhập
+            //sau khi form đăng nhập đc tắt, lấy thông tin tài khoản đã đăng nhập
             taikhoan = fn.tendangnhap;
+            matKhauHienTai = fn.matkhau;
             loaitk = fn.loaitk;
+
             try
             {
                 if (!thoatDangNhap)
@@ -51,10 +54,12 @@ namespace QLSV_3layers
                         {
                             //ẩn menu đăng ký học -> cái này chỉ dành riêng cho sinh viên
                             chucNangToolStripMenuItem.Visible = false;
+                            baoCaoToolStripMenuItem.Visible = false;
                         }
                         else//chỉ còn lại trường hợp là sinh viên
                         {
                             chamDiemToolStripMenuItem.Visible = false;//ẩn menu chấm điểm<-chức năng của gv
+                            baoCaoToolStripMenuItem.Visible = false;
                         }
                     }
 
@@ -128,25 +133,10 @@ namespace QLSV_3layers
             AddForm(f);
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FormReport formReport = new FormReport();
-            AddForm(formReport);
-        }
-
         private void doiMatKhauToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string checkLoaiTK = frmDangnhap.loaiTK;
-
-            if (checkLoaiTK == "gv")
-            {
-
-            }
-            else if (checkLoaiTK == "sv")
-            {
-                frmDoiMatKhauSV f = new frmDoiMatKhauSV();
-                f.ShowDialog();
-            }
+            frmDoiMatKhau f = new frmDoiMatKhau(taikhoan, matKhauHienTai, loaitk);
+            f.ShowDialog();
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
@@ -163,6 +153,18 @@ namespace QLSV_3layers
         private void hỗTrợToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.facebook.com/CongtacsinhvienUT");
+        }
+
+        private void báoCáoSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBaoCaoDSSV f = new frmBaoCaoDSSV();
+            f.ShowDialog();
+        }
+
+        private void báoCáoGiáoViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBaoCaoDSGV f = new frmBaoCaoDSGV();
+            f.ShowDialog();
         }
     }
 }

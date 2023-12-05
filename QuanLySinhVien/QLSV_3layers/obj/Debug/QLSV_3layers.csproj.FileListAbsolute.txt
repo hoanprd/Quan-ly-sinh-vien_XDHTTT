@@ -116,5 +116,8 @@ E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\Bou
 E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\itextsharp.dll
 E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\itextsharp.xml
 E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.csproj.CopyComplete
-E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDoiMatKhauSV.resources
 E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDangKy.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmDoiMatKhau.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\bin\Debug\Aspose.Words.dll
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmBaoCaoDSSV.resources
+E:\PostGitHub\Quan-ly-sinh-vien_XDHTTT\QuanLySinhVien\QLSV_3layers\obj\Debug\QLSV_3layers.frmBaoCaoDSGV.resources

@@ -123,6 +123,16 @@ namespace QLSV_3layers.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Aha_Soft_Universal_Shop_Print1 {
+            get {
+                object obj = ResourceManager.GetObject("Aha-Soft-Universal-Shop-Print1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Deleteico {
             get {
                 object obj = ResourceManager.GetObject("Deleteico", resourceCulture);

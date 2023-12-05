@@ -19,6 +19,8 @@ namespace QLSV_3layers
         }
 
         private string mgv;//khai báo biến để lưu tham số mgv được truyền vào
+        private string maMonHoc, tenMonHoc;
+
         private void LoadDSLop()
         {
             List<CustomParameter> lstPara = new List<CustomParameter>();
@@ -55,10 +57,14 @@ namespace QLSV_3layers
            
             if(dgvDSLop.Rows[e.RowIndex].Index >=0)// chỉ số hàng của datagridview được tính bắt đầu từ 0
             {
-                //MessageBox.Show("Bạn vừa chọn lớp: "+  dgvDSLop.Rows[e.RowIndex].Cells["malophoc"].Value.ToString()   );
+                maMonHoc = dgvDSLop.Rows[e.RowIndex].Cells["mamonhoc"].Value.ToString();
+                tenMonHoc = dgvDSLop.Rows[e.RowIndex].Cells["tenmonhoc"].Value.ToString();
+
                 new frmChamDiem(
                         dgvDSLop.Rows[e.RowIndex].Cells["malophoc"].Value.ToString(),//mã lớp học
-                        mgv//mã giáo viên                    
+                        mgv,//mã giáo viên
+                        maMonHoc,
+                        tenMonHoc
                     ).ShowDialog();
                 LoadDSLop();
             }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanLyLop));
             this.dgvDSLop = new System.Windows.Forms.DataGridView();
             this.btnTraCuu = new System.Windows.Forms.Button();
             this.txtTuKhoa = new System.Windows.Forms.TextBox();
@@ -118,9 +119,10 @@
             this.Controls.Add(this.btnTraCuu);
             this.Controls.Add(this.txtTuKhoa);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmQuanLyLop";
-            this.Text = "frmQuanLyLop";
+            this.Text = "Quản lý lớp học";
             this.Load += new System.EventHandler(this.frmQuanLyLop_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSLop)).EndInit();
             this.ResumeLayout(false);

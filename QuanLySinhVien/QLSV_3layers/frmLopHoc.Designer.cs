@@ -52,7 +52,7 @@
             // 
             this.cbbMonhoc.FormattingEnabled = true;
             this.cbbMonhoc.Location = new System.Drawing.Point(156, 12);
-            this.cbbMonhoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbMonhoc.Margin = new System.Windows.Forms.Padding(4);
             this.cbbMonhoc.Name = "cbbMonhoc";
             this.cbbMonhoc.Size = new System.Drawing.Size(432, 24);
             this.cbbMonhoc.TabIndex = 1;
@@ -73,7 +73,7 @@
             // 
             this.cbbGiaoVien.FormattingEnabled = true;
             this.cbbGiaoVien.Location = new System.Drawing.Point(156, 68);
-            this.cbbGiaoVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbGiaoVien.Margin = new System.Windows.Forms.Padding(4);
             this.cbbGiaoVien.Name = "cbbGiaoVien";
             this.cbbGiaoVien.Size = new System.Drawing.Size(432, 24);
             this.cbbGiaoVien.TabIndex = 1;
@@ -83,7 +83,7 @@
             this.btnLuu.Image = global::QLSV_3layers.Properties.Resources.SAVEADD;
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLuu.Location = new System.Drawing.Point(191, 113);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(126, 60);
             this.btnLuu.TabIndex = 2;
@@ -97,7 +97,7 @@
             this.btnHuy.Image = global::QLSV_3layers.Properties.Resources.Deleteico;
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHuy.Location = new System.Drawing.Point(325, 113);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(126, 60);
             this.btnHuy.TabIndex = 2;
@@ -118,7 +118,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbbMonhoc);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmLopHoc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chọn lớp học";
