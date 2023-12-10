@@ -89,23 +89,34 @@ namespace QLSV_3layers
                        MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
                         var maSV = dgvSinhVien.Rows[e.RowIndex].Cells["masinhvien"].Value.ToString(); //lấy mssv
+                        Console.WriteLine(maSV);
                         var sql = "deleteSV";
-                        var lstPara = new List<CustomParameter>()
+                        List<CustomParameter> lstPara = new List<CustomParameter>();
+
+                        lstPara.Add(new CustomParameter()
+                        {                                                //Tham số @nguoicapnhat được thiết lập để chứa giá trị nguoithucthi và tham số @magiaovien chứa giá trị mgv.
+                            key = "@masinhvien",
+                            value = maSV
+                        });
+
+                        foreach (var o in lstPara)
+                        {
+                            Console.WriteLine(o.key);
+                            Console.WriteLine(o.value);
+                        }
+                        
+                        /*var lstPara = new List<CustomParameter>()
                     {
                         new CustomParameter
                         {
                             key="@masinhvien",
                             value =maSV
                         }
-                    };
+                    };*/
 
-                        var result = new Database().ExeCute(sql, lstPara);
-                        if (result == 1)
-                        {
-                            MessageBox.Show("Xóa sinh vien thành công");
-                            LoadDSSV();
-                        }
-
+                        new Database().ExeCute(sql, lstPara);
+                        MessageBox.Show("Xóa sinh vien thành công");
+                        LoadDSSV();
                     }
                 }
             }

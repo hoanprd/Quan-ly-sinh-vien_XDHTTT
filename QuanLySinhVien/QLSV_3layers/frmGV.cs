@@ -100,6 +100,15 @@ namespace QLSV_3layers
                 value = txtTen.Text
             });
 
+            if (string.IsNullOrEmpty(mgv))               //kiểm tra xem biến mgv có rỗng hoặc null hay không
+            {                                           //nếu rong thi them moi gv
+                lstPara.Add(new CustomParameter()         //biến sql được thiết lập thành "insertGV" và một tham số nguoitao  được thêm vào danh sách lstPara
+                {                                         //Tham số này có giá trị là nguoithucthi,
+                    key = "@matkhau",
+                    value = "123456"
+                });
+            }
+
             lstPara.Add(new CustomParameter()
             {
                 key = "@ngaysinh",

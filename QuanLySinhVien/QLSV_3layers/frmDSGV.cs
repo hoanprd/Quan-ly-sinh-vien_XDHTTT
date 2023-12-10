@@ -71,22 +71,26 @@ namespace QLSV_3layers
                     {
                         var maGV = dgvDSGV.Rows[e.RowIndex].Cells["magiaovien"].Value.ToString();  //lấy mã giáo viên
                         var sql = "deleteGV";
-                        var lstPara = new List<CustomParameter>()
+                        List<CustomParameter> lstPara = new List<CustomParameter>();
+
+                        lstPara.Add(new CustomParameter()
+                        {                                                //Tham số @nguoicapnhat được thiết lập để chứa giá trị nguoithucthi và tham số @magiaovien chứa giá trị mgv.
+                            key = "@magiaovien",
+                            value = maGV
+                        });
+                        /*var lstPara = new List<CustomParameter>()
                     {
                         new CustomParameter
                         {
                             key="@magiaovien",
                             value = maGV
                         }
-                    };
+                    };*/
 
                         new Database().ExeCute(sql, lstPara);
-
-                        MessageBox.Show("Xóa giáo viên thành công!");
+                        MessageBox.Show("Xóa giáo viên thành công");
                         loadDSGV();
                     }
-
-
                 }
             }
         }
